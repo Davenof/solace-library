@@ -1,0 +1,390 @@
+/* --- Body --- */
+body {
+    width: 100%;
+    margin: 0%;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* --- HEADER --- */
+
+/* --- Top Header --- */
+.top-header {
+    padding: 5px 150px 0;
+    height: 25px;
+    color: #fff;
+    background-color: hsl(207, 100%, 24%);
+    font-size: 0.75em;
+    box-sizing: border-box;
+}
+
+.top-header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.top-header a:hover {
+    color: #e81e61;
+}
+
+#header-contact {
+    float: right;
+}
+
+/* --- Main Header --- */
+.main-header {
+    height: 55px;
+    padding: 10px 150px;
+    background-color: #fff;
+    border-bottom: 1px inset #e7e7e7;
+    box-sizing: border-box;
+}
+
+.main-header img {
+    float: left;
+}
+
+#logo-text {
+    float: left;
+    font: bold 1.5em sans-serif;
+    color: #232323;
+    text-shadow: 0.4px 0.4px #232323;
+    margin: 8px 10px 0;
+}
+
+/* --- Navigation Menu --- */
+.nav-menu {
+    box-sizing: border-box;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+    float: right;
+}
+
+.nav-menu li {
+    display: inline;
+}
+
+.nav-menu ul a {
+    color: #00437A;
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-left: 20px;
+}
+
+.nav-menu ul a:hover {
+    text-shadow: 0.5px 0.5px 1px gray;
+}
+
+
+
+/* --- CATALOGUE MAIN --- */
+
+/* --- Banner --- */
+.banner-catalogue {
+    background: #337A96 url(../images/catalogue-banner.png) no-repeat 15% 100%;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.navigator {
+    width: 60%;
+    position: relative;
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 150px; 
+}
+
+.gsc-control-cse {
+   background-color: rgba(255, 255, 255, 0.7);   
+   opacity: 0.7;
+   border-radius: 5px;
+}
+
+#database-name {
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-align: right;
+}
+
+#advanced-search {
+   font-size: 0.75em;
+}
+
+/* --- MAIN NEWS & EVENTS--- */
+
+/* --- Banner --- */
+.banner-news-events {
+    background: #6d6772 url(../images/news-event.png) no-repeat 100% 100%;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    box-sizing: border-box;
+    background-position: center;
+}
+
+/* --- Event Info --- */
+.event-info blockquote {
+    width: 70%;
+    margin: auto;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    border-bottom: solid 7px #FF8800;
+    box-sizing: border-box;
+}
+
+.event-info blockquote p {
+   font: 15px cursive;
+   color: #00437A;
+   font-weight: bold;
+}
+
+.event-div {
+    padding: 15px 0 0 150px;
+ }
+ 
+ #event-msg1 {
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+     font-size: 4vw;
+     color: #fff;
+     margin-top: 15px;
+     text-shadow: 0.5px 0.5px 1px yellow;
+ }
+ 
+ #event-msg2 {
+     font-family: cursive;
+     font-size: 30px;
+     color: #fff;
+     margin-top: -15px;
+     color: yellow;
+ }
+
+ .products-info {
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    border-bottom: solid 7px #FF8800;
+    box-sizing: border-box;
+ }
+
+ .products-info p {
+    font: 15px cursive;
+    color: #ff0000;
+    font-weight: bold;
+ }
+
+.products-grid {
+    width: 90%;
+    margin:auto;
+    padding-top: 70px;
+    align-items: center;
+    display: grid; 
+    grid-template-columns: auto auto auto auto; 
+}
+
+#products-list li {
+    list-style: none;
+    width: 150px;
+    float: left;
+    padding-bottom: 10px;
+    color: #00437A;
+    font-weight: bold;
+    
+}
+
+#products-list img {
+    width: 150px;
+    height: 110px;
+    column-gap: 50px;
+    row-gap: 50px;
+    float: left;
+    padding-bottom: 40px;  
+}
+
+.description {
+    background-color: #00437A;
+    color: #fff;
+    width: 100%;
+    font-family: cursive;
+    text-align: center;
+    padding: 7px;
+}
+
+.description-grid {
+    width: 100%;
+    margin:auto;
+    padding: 40px 30px;
+    background-color: #f8f8f8;  
+}
+
+#description li {
+    width: 90%;
+    margin: auto;
+    line-height: 1.8em;
+}
+
+.content-attribution {
+    background-color: #3A3A3A;
+    color: #fff;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.75em;
+    text-align: center;
+    padding: 3px;
+}
+
+.content-attribution a {
+    color: #fff;
+}
+
+
+
+/* --- SIGNUP MAIN --- */
+
+/* --- Signup Background --- */
+.signup-background {
+    background: #337A96;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/* --- Authentication Area --- */
+.signup-form-container {
+    width: 40%;
+    max-width: 60%;
+    margin: auto;
+    padding: 5% 50px;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 0 0 35px rgba(255, 255, 255, 0.7);
+    opacity: 0.9;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+form h2 {
+    text-align: center;
+}
+
+.field-input {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.field {
+    display: block;
+    width: 100%;
+    padding: 2%;
+    border-bottom: 2px inset #ff0000;
+    border-radius: 5px;
+    background-color: #fff7ff;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    width: 100%;
+    font: 25px bold;
+    padding: 1% 1%;
+    background-color: hsl(207, 100%, 24%);
+    color: #e7e7ee;
+    border: 0.5px solid;
+    border-radius: 3px;
+}
+
+.submit-btn:hover {
+    background-color: #e7e7ee;
+    color: hsl(207, 100%, 24%);
+    border: 0.5px solid hsl(207, 100%, 24%);
+}
+
+.form-text {
+   text-align: center;
+}
+
+#phpecho {
+    color: #fff;
+    text-align: center;
+    background-color: #ff0000;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#phpecho-success {
+    color: #fff;
+    text-align: center;
+    background-color: #00ff00;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* --- LOGIN MAIN --- */
+/* Maintains the SIGNUP MAIN style above */
+
+
+/* --- PAGE LIMIT --- */
+
+/* --- Limit Message --- */
+.limit-message {
+    background: #337A96;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.msg-text-area {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+#courtesy-txt1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-size: 3.5vw;
+    color: #fff;
+    margin-top: 5px;
+}
+
+#courtesy-txt2 {
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #fff;
+    margin-top: -30px;
+}
+
+#courtesy-btn {
+    background-color: rgb(218, 36, 96); 
+    color: #e7e7e7;
+    font-weight: bold;
+    padding: 12px;   
+    border-radius: 6px;
+}
+
+#courtesy-btn:hover {
+    background-color: rgb(240, 100, 142); 
+    padding: 12px;   
+    border-radius: 6px;
+}
+
+
+
+
