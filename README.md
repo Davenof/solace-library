@@ -9,5 +9,5 @@
   Major technologies used are HTML, CSS, JavaScript, MySQL, JSON API, and PHP.
 </P>
 <p>
- Use this link to view the original website https://davidofili.info/projects/solib/index.php
+ Use this link to view the original website <a href="https://davidofili.info/projects/solib/index.php">https://davidofili.info/projects/solib/index.php</a>
 </p>
